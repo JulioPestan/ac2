@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrar</title>
+</head>
+<h1>Registre-se</h1>
+<body>
+  
+    <hr>
+    <div class="container">
+    <form action = "registrar" method="post">
+        <label for="inputusername"> Nome:</label><br>
+        <input type="text" name="inputusername"id="inputusername" required placeholder="Nome"><br><br>
+
+        <label for="inputtelefone">Telefone:</label><br>
+        <input type="text" name="inputtelefone" id="inputtelefone"  required placeholder="Telefone"><br><br>
+
+        <label for="inputendereco">Endereço:</label><br>
+        <input type="text" name="inputendereco" id="inputendereco"  required placeholder="Endereço"><br><br>
+
+        <button id="cadastrar" type="submit">Registrar</button>
+    </form>
+    </div>
+
+<p class = "mensagem">{{mensagem}}</p>
+
+    
+</body>
+</html>
