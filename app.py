@@ -25,6 +25,8 @@ def registre():
 
 @app.route('/registrar', methods =['GET','POST'])
 def registrar():
+
+     print(request.form['inputusername'])
     try:
         if request.method == 'POST':
             nome = request.form['inputusername']
