@@ -44,7 +44,7 @@ def registrar():
             
 
             msg = 'Registro feito com sucesso !!'
-            return render_template('registrar.html', mensagem = msg)
+            return render_template('signup2.html', mensagem = msg)
     except Exception as e:
         return json.dumps({'error':str(e)})
     
